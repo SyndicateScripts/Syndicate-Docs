@@ -1,0 +1,71 @@
+site_name: Syndicate Scripts
+site_description: Documentation for Syndicate Scripts FiveM resources
+site_url: https://syndicatescripts.github.io/docs/
+repo_url: https://github.com/YOUR-GITHUB-USERNAME/syndicate-docs
+edit_uri: edit/main/docs-site/docs/
+
+theme:
+  name: material
+  language: en
+  palette:
+    # Matches the store: neon purple on near-black.
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - Installation: getting-started/installation.md
+      - Requirements: getting-started/requirements.md
+      - Troubleshooting: getting-started/troubleshooting.md
+  - Products:
+      - srp_scoreboard: products/srp_scoreboard.md
+      - srp_backpacks: products/srp_backpacks.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/YOUR-INVITE
+      name: Discord
+    - icon: material/cart
+      link: https://syndicaterp-shop.tebex.io/
+      name: Store

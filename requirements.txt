@@ -1,0 +1,6 @@
+# Documentation site only. Not needed to run the bot.
+#
+# Pinned below 10: the Material team have announced that MkDocs 2.0 removes
+# the plugin system and the theming system with no migration path. An
+# unpinned build would break silently on some future CI run.
+mkdocs-material>=9.5,<10
