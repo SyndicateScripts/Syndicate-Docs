@@ -63,9 +63,12 @@ nav:
 
 extra:
   social:
-    - icon: fontawesome/brands/discord
-      link: https://discord.gg/YOUR-INVITE
-      name: Discord
+    # Add your Discord invite here, then republish:
+    #   - icon: fontawesome/brands/discord
+    #     link: https://discord.gg/YOUR-INVITE
+    #     name: Discord
+    # A link left as a placeholder is worse than no link, so it stays commented
+    # out until there is a real one.
     - icon: material/cart
       link: https://syndicaterp-shop.tebex.io/
       name: Store
