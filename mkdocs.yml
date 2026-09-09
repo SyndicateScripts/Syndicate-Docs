@@ -1,8 +1,8 @@
 site_name: Syndicate Scripts
 site_description: Documentation for Syndicate Scripts FiveM resources
-site_url: https://syndicatescripts.github.io/docs/
-repo_url: https://github.com/YOUR-GITHUB-USERNAME/syndicate-docs
-edit_uri: edit/main/docs-site/docs/
+site_url: https://syndicatescripts.github.io/Syndicate-Docs/
+repo_url: https://github.com/SyndicateScripts/Syndicate-Docs
+edit_uri: edit/main/docs/
 
 theme:
   name: material
