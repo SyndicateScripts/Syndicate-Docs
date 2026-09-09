@@ -47,6 +47,14 @@ re-download from Keymaster.
 
 We cannot send resources through Discord.
 
+## Found a mistake here?
+
+These pages are open source. Every page has an **edit** link at the top right,
+or open an issue at
+[github.com/SyndicateScripts/Syndicate-Docs](https://github.com/SyndicateScripts/Syndicate-Docs).
+
+Corrections are welcome — documentation that is wrong costs everyone time.
+
 ## Support
 
 Support runs through tickets on our Discord, so your server details and
